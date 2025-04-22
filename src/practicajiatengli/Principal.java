@@ -11,6 +11,7 @@ public class Principal {
 
         System.out.println("Introduzca el número sobre el que hacer los cálculos");
 
+
         int numero;
         try {
             numero = sc.nextInt();
@@ -19,7 +20,8 @@ public class Principal {
             return;
         }
 
-        new CalculosMatematicos().calculos(numero);
+     
+
 
     }
 
