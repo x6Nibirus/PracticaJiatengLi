@@ -1,5 +1,6 @@
 package practicajiatengli;
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class Principal {
@@ -23,6 +24,9 @@ public class Principal {
 
 
 
+        Random r = new Random();
+        int numAleatorio = r.nextInt(numero) + 1;
+        new CalculosMatematicos().calcularMCD(numero, numAleatorio);
     }
 
 }
