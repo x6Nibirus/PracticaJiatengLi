@@ -61,20 +61,7 @@ public class CalculosMatematicos {
 
         System.out.println("Los factoriales primos del número introducido son: " + miArray);
 
-        for (int i = 2; i < numero; i++) {
-            noEsPrimo = false;
-            if (numero % i == 0) {
-                noEsPrimo = true;
-                i = numero;
-            }
-        }
-
-        if (noEsPrimo) {
-            System.out.println("El número " + numero + " NO es primo");
-        } else {
-            System.out.println("El número " + numero + " SI es primo");
-        }
-        return noEsPrimo;
+      return noEsPrimo;
     }
     // M�todo para calcular el MCD usando el algoritmo de Euclides
 
